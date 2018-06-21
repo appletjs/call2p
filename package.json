@@ -1,0 +1,20 @@
+{
+  "name": "call2p",
+  "version": "0.0.1",
+  "description": "convert result to promise with call a function.",
+  "main": "index.js",
+  "author": "Maofeng Zhang <japplet@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appletjs/call2p.git"
+  },
+  "keywords": [
+    "promise",
+    "callback"
+  ],
+  "bugs": {
+    "url": "https://github.com/appletjs/call2p/issues"
+  },
+  "homepage": "https://github.com/appletjs/call2p#readme"
+}
