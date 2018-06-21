@@ -53,11 +53,6 @@ function promise(executor) {
  */
 promise.wrap = function wrap(handle) {
   return function promisedCallback(...args) {
-    // remove callback form args
-    if (handle.length && handle.length === args.length) {
-      args.pop();
-    }
-
     return promise(function (callback) {
       handle(...args, callback);
     });

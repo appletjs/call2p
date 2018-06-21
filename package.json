@@ -1,6 +1,6 @@
 {
   "name": "call2p",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "convert result to promise with call a function.",
   "main": "index.js",
   "author": "Maofeng Zhang <japplet@163.com>",
